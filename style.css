@@ -1,0 +1,9 @@
+.navegador {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(230, 115, 8);
+}
+.linkNav {
+    padding: 8px;
+    font-family: Georgia, serif;
+}
