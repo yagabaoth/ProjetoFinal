@@ -7,11 +7,64 @@
     <title>Projeto</title>
 </head>
 <body>
-    <nav class="navegador">
-        <a href="blank" class="linkNav">Sobre</a>
-        <a href="blank" class="linkNav">Cardapio</a>
-        <a href="blank" class="linkNav">Promoções</a>
-    </nav>
-    
+    <header class="cabeçalho">
+        <div class="nomeRest">Restaurante </div>
+        <nav class="navegador">
+            <a href="#hero" class="linkNav">Sobre nós</a>
+            <a href="#cardapio" class="linkNav">Cardapio</a>
+            <a href="#planos" class="linkNav">Promoções</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <h1>Bem-vindo ao nosso restaurante</h1>
+            <p>Desfrute de uma experiência gastronômica única!</p>
+            <input type="text" placeholder="Digite seu nome" id="nomeInput">
+            <button id="btnReserva">Reservar Mesa</button>
+        </section>
+        <section id="cardapio" class="cardapio">
+            <h2>Nosso Cardápio</h2>
+            <p>Confira nossos pratos deliciosos.</p>
+
+            <div class="cards">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1558030006-450675393462?w=400&h=300&fit=crop">
+                    <h3>Picanha</h3>
+                    <p>Com arroz e feijão.</p>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1476124369491-e7addf5db371?w=400&h=300&fit=crop">
+                    <h3>Risoto de Camarão</h3>
+                    <p>Acompanha Arroz e ervas.</p>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400&h=300&fit=crop">
+                    <h3>Petit Gateau</h3>
+                    <p>Acompanhado de sorvete.</p>
+                </div>
+                
+            </div>
+        </section>
+        <section id="planos" class="planos">
+            <h2>Promoções</h2>
+            <p>Oferecemos as melhores promoções para nossos clientes.</p>
+            <div class="card">
+                <h3>Aniversariante</h3>
+                <p>Desconto especial no dia do seu aniversário.</p>
+                <strong>R$ 30,00</strong>
+            </div>
+            <div class="card">
+                <h3>Almoço executivo</h3>
+                <p>Prato do dia mais sobremesa e bebidas.</p>
+                <strong>R$ 1000,00</strong>
+            </div>
+        </section>
+    </main>
+    <footer class="rodape">
+        <p>© 2026 Projeto Final. Valeu Clube!!!</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

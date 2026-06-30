@@ -1,9 +1,101 @@
-.navegador {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, serif;
+}
+
+.cabeçalho {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
     background-color: rgb(230, 115, 8);
 }
+
+.nomeRest {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.navegador {
+    display: flex;
+    font-size: 20px;
+}
+
 .linkNav {
     padding: 8px;
-    font-family: Georgia, serif;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-image: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Zm9vZHxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80');
+    background-size: cover;
+    background-position: center;
+    color: #FFFFFF;
+    gap: 10px;
+}
+
+#btnReserva {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(192, 57, 43);
+    border-radius: 10px;
+}
+
+#nomeInput {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.cardapio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 80px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #FFF8F0;
+}
+
+.card h3 {
+    padding: 10px;
+}
+
+.card p {
+    padding: 10px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.planos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    text-align: center;
+    padding: 60px 80px;
+}
+
+.rodape {
+    text-align: center;
+    padding: 20px 10px;
+    background-color:#eeeded
 }
